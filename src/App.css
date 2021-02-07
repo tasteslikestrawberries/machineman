@@ -1,0 +1,85 @@
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+/*NAVBAR*/
+#nav {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  color: white;
+  background-color: #282c34;
+  border-bottom: 1px solid white; 
+  border-top: 1px solid white; 
+  text-align: center;
+  letter-spacing: 3px;
+}
+  
+
+#nav li {
+  display: inline;
+  padding-right: 60px;
+  list-style: none;
+  
+}
+
+#nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+#nav a:hover {
+  text-decoration: none;
+  font-weight:bold;
+}
+
+/*HEADER*/
+
+h1{
+  color: yellow;
+}
+
+header {
+  padding: 2px 20px 20px 20px;
+  text-align: center;
+
+}
+
+
+/*CONTENT*/
+
+.content {
+  display: grid;
+  column-gap: 20px; 
+  row-gap: 40px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: stretch;
+  align-items: stretch;
+  margin-left: 20px;
+
+}
+
+
+form {
+  display:inline-grid;
+  background-color: #1f2125;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  padding: 0px 20px 20px 20px;
+ 
+
+ 
+}
+
+.articles {
+  display:inline-grid;
+  background-color: #1f2125;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  padding: 0px 20px 20px 20px;
+}
+
+
