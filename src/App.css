@@ -39,6 +39,8 @@ body {
 
 h1{
   color: yellow;
+ text-align: center;
+ padding: 30px;
 }
 
 header {
@@ -52,34 +54,36 @@ header {
 
 .content {
   display: grid;
-  column-gap: 20px; 
-  row-gap: 40px;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  justify-items: stretch;
-  align-items: stretch;
-  margin-left: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  padding: 40px;
 
 }
 
 
 form {
-  display:inline-grid;
+  display: inline-grid;
   background-color: #1f2125;
   text-align: justify;
   color: rgb(255, 255, 255);
-  padding: 0px 20px 20px 20px;
- 
+  padding: 0px 30px 30px 30px;
+  justify-items: center;
 
- 
 }
 
 .articles {
   display:inline-grid;
   background-color: #1f2125;
   color: rgb(255, 255, 255);
+  padding: 0px 30px 30px 30px;
   text-align: justify;
-  padding: 0px 20px 20px 20px;
+  justify-items: center;
+
 }
 
+.articles>h1 {
+  
+  color: blue;
+
+}
 

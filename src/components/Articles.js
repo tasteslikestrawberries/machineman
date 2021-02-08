@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react"
 
 const Articles = () => {
@@ -6,6 +7,8 @@ const Articles = () => {
     
       <div class="articles">
       <h1>Articles</h1>
+      <img src="https://cdn.dribbble.com/users/2252336/screenshots/4486645/icon_loader_connecting_267.gif" alt="credit: dribble user keybase" width='360px' height='300px'></img>
+       Image credit: <a href="https://dribbble.com/shots/4486645-Keybase-loader" target="_blank">Dribbble user Keybase</a> <br/>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
             ullamco laboris nisi ut aliquip ex ea commodo consequat. 
