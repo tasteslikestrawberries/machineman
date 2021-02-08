@@ -14,7 +14,7 @@ function App () {
       <>
         <Navbar/>
         <Header/>
-        <div class="content">
+        <div className="content">
         <MyForm/>
         <Articles/>
         </div>
