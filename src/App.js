@@ -19,7 +19,6 @@ function App () {
       <Header/>
         <div className="content">
         <Articles/>
-        
         <MyForm/>
         </div>
       </>
