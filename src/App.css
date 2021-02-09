@@ -64,7 +64,6 @@ header {
 
 
 form {
-  display: inline-grid;
   background-color: #1f2125;
   text-align: justify;
   color: rgb(255, 255, 255);
@@ -74,7 +73,6 @@ form {
 }
 
 .articles {
-  display:inline-grid;
   background-color: #1f2125;
   color: rgb(255, 255, 255);
   padding: 0px 30px 30px 30px;
