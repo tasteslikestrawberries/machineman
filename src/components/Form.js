@@ -23,7 +23,7 @@ function MyForm() {
     
      
       <form>
-      <h1>* Simple React Form</h1>
+      <h3>* Simple React Form</h3>
 
         <label>
           First Name:{" "}

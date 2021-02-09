@@ -1,21 +1,25 @@
-import React from "react"
+
+import React from 'react';
 //components
-import Header from './components/Header'
-import MyForm from './components/Form'
-import Articles from './components/Articles'
+import Boot from './components/Boot.js';
+import Header from './components/Header';
+import MyForm from './components/Form';
+import Articles from './components/Articles';
 //stylesheet
 import "./App.css"
+
+
 
 
 function App () {
 
   return (
       <>
-     
-        <Header/>
+      <Boot/>
         <div className="content">
-        <MyForm/>
         <Articles/>
+        <Header/>
+        <MyForm/>
         </div>
       </>
   )

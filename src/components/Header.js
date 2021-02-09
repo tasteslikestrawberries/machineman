@@ -1,18 +1,42 @@
 import React from "react";
-import Boot from './Boot.js'
+import Carousel from 'react-bootstrap/Carousel';
 
-
+ 
 
 
 const Header = () => {
   return (
-    <>
-    <Boot/>
+  
     <header>
-      <h1>This is my first React App!</h1>
-      <p>learning React</p>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <Carousel>
+  <Carousel.Item>
+  
+    <Carousel.Caption>
+      <h3>First slide label</h3><br/>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+  
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+
     </header>
-    </>
+    
   )
 }
 

@@ -13,12 +13,15 @@ class Boot extends React.Component{
         return (
 
 <>
-<Navbar bg="light" variant="light">
+<Navbar id="navbar" bg="dark" variant="dark">
     <Navbar.Brand href="#home">My Bootstrap Navbar</Navbar.Brand>
     <Nav className="mr-auto">
+
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#features">Features</Nav.Link>
       <Nav.Link href="#pricing">Blog</Nav.Link>
+
+
     </Nav>
   </Navbar>
 </>
