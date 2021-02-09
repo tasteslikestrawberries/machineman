@@ -16,9 +16,10 @@ function App () {
   return (
       <>
       <Boot/>
+      <Header/>
         <div className="content">
         <Articles/>
-        <Header/>
+        
         <MyForm/>
         </div>
       </>
