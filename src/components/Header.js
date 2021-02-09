@@ -1,15 +1,18 @@
-import React from "react"
-import Button from '@material-ui/core/Button';
+import React from "react";
+import Boot from './Boot.js'
+
+
+
 
 const Header = () => {
   return (
+    <>
+    <Boot/>
     <header>
       <h1>This is my first React App!</h1>
       <p>learning React</p>
-      <Button variant="contained" color="primary">
-      Hello World!
-    </Button>
     </header>
+    </>
   )
 }
 
