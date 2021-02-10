@@ -10,7 +10,7 @@ const Header = () => {
     <header>
 
       <Carousel>
-  <Carousel.Item id ="citem">
+      <Carousel.Item interval={1000} id='citem'>
     <img className="d-block w-100" src="https://i.postimg.cc/MGbdwb0C/c3.png" alt="First slide"></img>
     <Carousel.Caption id="caption">
       <h3>First slide label</h3> <br/> <br/>
@@ -18,7 +18,7 @@ const Header = () => {
     </Carousel.Caption>
   </Carousel.Item>
 
-  <Carousel.Item id ="citem">
+  <Carousel.Item interval={1000} id='citem'>
     <img className="d-block w-100" src="https://i.postimg.cc/G3Y9m7TT/c1.png" alt="Second slide"></img>
     <Carousel.Caption id="caption">
       <h3>Second slide label</h3> <br/> <br/>
@@ -26,7 +26,7 @@ const Header = () => {
     </Carousel.Caption>
   </Carousel.Item>
 
-  <Carousel.Item id ="citem">
+  <Carousel.Item interval={1000} id='citem'>
     <img className="d-block w-100" src="https://images.wallpapersden.com/image/download/macos-11-big-sur_bGZsbmmUmZqaraWkpJRobWllrWdma2U.jpg" alt="Third slide"></img>
     <Carousel.Caption id="caption">
       <h3>Third slide label</h3> <br/> <br/>
