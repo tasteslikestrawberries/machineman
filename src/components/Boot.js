@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Spinner from 'react-bootstrap/Spinner';
+
 
 
 
@@ -16,12 +16,7 @@ class Boot extends React.Component{
 <>
 <Navbar id="navbar" bg="light" variant="light">
 
-<Spinner animation="border" size="sm" />
-  <Spinner animation="border" />
-  <Spinner animation="grow" size="sm" />
-  <Spinner animation="grow" /> &nbsp;&nbsp;&nbsp;
-
-    <Navbar.Brand href="#home">Home</Navbar.Brand>
+    <Navbar.Brand href="#homesweethome">Home</Navbar.Brand>
     <Nav className="mr-auto">
 
 

@@ -20,6 +20,7 @@ function App () {
         <div className="content">
         <Articles/>
         <MyForm/>
+       
         </div>
       </>
   )
