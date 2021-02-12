@@ -1,12 +1,15 @@
 
 import React from 'react';
 //components
-import Boot from './components/Boot.js';
-import Header from './components/Header';
-import MyForm from './components/Form';
-import Articles from './components/Articles';
+import FirstContainer from './components/FirstContainer';
+import SecondContainer from './components/SecondContainer';
+import ThirdContainer from './components/ThirdContainer';
+
+
+
 //stylesheet
 import "./App.css"
+
 
 
 
@@ -15,13 +18,12 @@ function App () {
 
   return (
       <>
-      <Boot/>
-      <Header/>
-        <div className="content">
-        <Articles/>
-        <MyForm/>
-       
-        </div>
+
+      <FirstContainer/>
+      <SecondContainer/>
+      <ThirdContainer/>
+      
+
       </>
   )
 }

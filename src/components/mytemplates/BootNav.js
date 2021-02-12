@@ -9,12 +9,12 @@ import Nav from 'react-bootstrap/Nav';
 
 
 
-class Boot extends React.Component{
+class BootNav extends React.Component{
     render() {
         return (
 
 <>
-<Navbar id="navbar" bg="light" variant="light">
+<Navbar id="navbar" bg="dark" variant="dark">
 
     <Navbar.Brand href="#homesweethome">Home</Navbar.Brand>
     <Nav className="mr-auto">
@@ -37,4 +37,4 @@ class Boot extends React.Component{
 
 
 
-export default Boot
+export default BootNav
