@@ -5,7 +5,6 @@ body {
   font-size: 18px;
   margin: 0;
   box-sizing: border-box;
-
   
 }
 
@@ -31,14 +30,14 @@ a:hover, a:active {
   width: 60px;
   height: 30px;
   cursor: pointer;
-  z-index: 10;}
+  z-index: 400;}
 
 
 #menu span {
   display: block;
   position: absolute;
   height: 4px;
-  background-color: rgb(255, 255, 255);
+  background-color:#ffffff;
   left: 0;
   transform: rotate(
 0deg
@@ -62,7 +61,7 @@ a:hover, a:active {
 }
 
 #menu:hover span {
-background-color:black;
+background-color: #fff;
 }
 
 
@@ -76,6 +75,7 @@ background-color:black;
   z-index: 500;
   width: fit-content;
   height: fit-content;
+  color: #fff;
 }
 
 .info span {
@@ -87,7 +87,8 @@ background-color:black;
 }
 
 .loaded {
-  animation: fadeIn ease 3s, floating ease-in-out 2s 2;
+  transform: scale(1,1);
+  animation: fadeIn ease 3s, floating ease-in-out 2s 5;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -126,31 +127,48 @@ background-color:black;
   font-size: 18px;
   width: 100%;
   height: 1000px;
-  background-color: #a72beb;
-  color: #fff;
+  background-color: #131314;
+  color: #ffffff;
+  
+  
   
 }
 
 
 h1{
-  position: relative;
+  position: absolute;
   width: fit-content;
-  left: 60vw;
-  top: 90vh;
-  font-size: 50px;
+  left: 70vw;
+  top: 35vh;
+  font-size: 100px;
   margin: 0;
   letter-spacing: -0.03em;
-  color:rgb(255, 255, 255);
-  
+  color: #ffffff;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-transform: uppercase;
 
+}
+
+h1 span {
+  color: #a20338;
 }
 
 .content1 {
   text-align: justify;
   position: relative;
-  width: 65%;
+  width: 40%;
   top: 10vh;
   left: 15vw;
+  
+}
+
+.content1>.lazyload {
+  position: absolute;
+  top: 55vh;
+  left: 25vw;
+ 
+
 }
 
 
@@ -161,9 +179,9 @@ h1{
   height: 1000px;
   background-color: #a20338;
 
-
   }
 
+  
 
 h2{
   font-size: 50px;
@@ -184,7 +202,7 @@ h2{
   font-size: 18px;
   width: 100%;
   height: 1000px;
-  background-color: #fbff08;
+  background-color: #131314;
 
 
 }
@@ -193,6 +211,7 @@ h3{
   font-size: 50px;
   margin: 0;
   padding: 5vw 12vw 0vw;
+  color: #fff;
 }
 
 
@@ -201,13 +220,10 @@ h3{
   text-align: justify;
   padding: 5vw 12vw 10vw;
   width: 65%;
+  color: #fff;
 }
 
-.thirdContainer>.lazyload {
-  position: relative;
-  left: 30vw;
-  
-}
+
 
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import codingscreen from './assets/codingscreen.jpg'
+
 
 
 class ThirdContainer extends React.Component {
@@ -8,7 +8,7 @@ class ThirdContainer extends React.Component {
         let options = {
             root: null,
             rootMargin: '0px',
-            threshold: 0.45
+            threshold: 0.406
         }
 
         const callback = (entries) => {
@@ -16,11 +16,11 @@ class ThirdContainer extends React.Component {
           
             // if thirdcontainer is intersecting info then add background color 
             if (entries[0].isIntersecting) {
-                span.style.backgroundColor = "black";
+                span.style.color = "#a20338";
             }
             // if third container is not intersecting then remove background color
             if (!entries[0].isIntersecting ) {
-                span.style.backgroundColor = "unset";
+                span.style.color = "unset";
             }
         }
             
@@ -43,9 +43,6 @@ class ThirdContainer extends React.Component {
             occaecat cupidatat non proident, sunt in culpa qui officia 
             deserunt moliiiiit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
            aliqua.
-           <br/><br/><br/>
-
-           <img className="lazyload" data-src={codingscreen} alt="codingscreen"></img>
 
             </div>
             
