@@ -74,11 +74,13 @@ background-color:black;
   margin-top: 30vh;
   padding: 5vw;
   z-index: 500;
+  width: fit-content;
+  height: fit-content;
 }
 
 .info span {
   display:inline-block;
-  width:0.1vw;
+  width:0.05vw;
   background-color: rgb(255, 255, 255);
   height:300%;
   
@@ -125,24 +127,30 @@ background-color:black;
   width: 100%;
   height: 1000px;
   background-color: #a72beb;
-  
+  color: #fff;
   
 }
 
 
 h1{
+  position: relative;
+  width: fit-content;
+  left: 60vw;
+  top: 90vh;
   font-size: 50px;
   margin: 0;
-  padding: 5vw 12vw 0vw;
+  letter-spacing: -0.03em;
   color:rgb(255, 255, 255);
   
 
 }
 
 .content1 {
- text-align: justify;
- padding: 5vw 12vw 10vw;
- width: 65%;
+  text-align: justify;
+  position: relative;
+  width: 65%;
+  top: 10vh;
+  left: 15vw;
 }
 
 
