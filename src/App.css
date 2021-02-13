@@ -73,7 +73,7 @@ background-color:black;
   transform: rotate(180deg);
   margin-top: 30vh;
   padding: 5vw;
-  
+  z-index: 500;
 }
 
 .info span {
@@ -84,20 +84,50 @@ background-color:black;
   
 }
 
-.info a:hover {
-  color: black;
+.loaded {
+  animation: fadeIn ease 3s, floating ease-in-out 2s 2;
 }
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+  
+@keyframes floating { 
+  0% { transform: translate(0,  0px); } 
+  50%  { transform: translate(0, 15px); } 
+  100%   { transform: translate(0, 0px); }     
+} 
 
 
 .firstContainer {
   font-size: 18px;
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   background-color: #a72beb;
   
   
 }
-
 
 
 h1{
@@ -120,7 +150,7 @@ h1{
 
   font-size: 18px;
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   background-color: #a20338;
 
 
@@ -145,7 +175,7 @@ h2{
   
   font-size: 18px;
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   background-color: #fbff08;
 
 
@@ -165,7 +195,11 @@ h3{
   width: 65%;
 }
 
-
+.thirdContainer>.lazyload {
+  position: relative;
+  left: 30vw;
+  
+}
 
 
 
