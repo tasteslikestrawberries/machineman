@@ -129,8 +129,7 @@ background-color: #fff;
   height: 1000px;
   background-color: #131314;
   color: #ffffff;
-  
-  
+
   
 }
 
@@ -157,8 +156,8 @@ h1 span {
 .content1 {
   text-align: justify;
   position: relative;
-  width: 40%;
-  top: 10vh;
+  width: 50%;
+  top: 30vh;
   left: 15vw;
   
 }
