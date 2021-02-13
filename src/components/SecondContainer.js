@@ -6,7 +6,7 @@ class SecondContainer extends React.Component {
     render() {
         return (
             <div className='secondContainer'>
-                  <h2>Second Container</h2>
+                  <h2>Second Cont.</h2>
             <div className='content2'>
           
                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 

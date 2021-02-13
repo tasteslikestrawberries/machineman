@@ -16,7 +16,7 @@ class ThirdContainer extends React.Component {
           
             // if thirdcontainer is intersecting info then add background color 
             if (entries[0].isIntersecting) {
-                span.style.color = "#a20338";
+                span.style.color = "rgb(168, 38, 255";
             }
             // if third container is not intersecting then remove background color
             if (!entries[0].isIntersecting ) {

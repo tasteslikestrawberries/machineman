@@ -19,7 +19,7 @@ class FirstContainer extends React.Component {
               
                 // if firstcontainer is intersecting info then add background color 
                 if (entries[0].isIntersecting) {
-                    span.style.color = "#a20338";
+                    span.style.color = "rgb(168, 38, 255";
                 }
                 // if firstcontainer is not intersecting then remove background color
                 if (!entries[0].isIntersecting ) {
@@ -64,7 +64,7 @@ class FirstContainer extends React.Component {
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
            aliqua.
 
-           <img className="lazyload" data-src={bubbles} alt="bubbles" width="500" height="700"></img>
+           <img className="lazyload" data-src={bubbles} alt="lazyload" width="450" height="600"></img>
          
             </div>
 
