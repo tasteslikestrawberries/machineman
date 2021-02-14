@@ -124,9 +124,10 @@ background-color: rgb(168, 38, 255);
   background-color: #131314;
   color: #ffffff;
   background-image: url('./components/assets/brain.png');
-  background-position-x: 100vw;
-  background-position-y: 510vh;
-  background-size: 50%;
+  background-position-x: 10vw;
+  background-position-y: -10vh;
+  background-size: 60%;
+  background-repeat: no-repeat;
 
 
   
