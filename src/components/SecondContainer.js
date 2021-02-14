@@ -16,7 +16,10 @@ class SecondContainer extends React.Component {
            <img id='img1' src={android} alt="" ></img></div>
             
            <div className='contentItem'>
-           <img id='img2' src={android} alt="" width='500px' height='500px'></img></div>
+           <img id='img2' src={android} alt="" width='' height='500px'></img></div>
+
+           <div className='contentItem'>
+           <img id='img1' src={android} alt="" ></img></div>
 
 
                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 

@@ -120,13 +120,13 @@ background-color: rgb(168, 38, 255);
 .firstContainer {
   font-size: 18px;
   width: 100%;
-  height: 800px;
+  height: 900px;
   background-color: #131314;
   color: #ffffff;
   background-image: url('./components/assets/brain.png');
   background-position-x: 10vw;
-  background-position-y: -10vh;
-  background-size: 60%;
+  background-position-y: 0vh;
+  background-size: 55%;
   background-repeat: no-repeat;
 
 
@@ -197,7 +197,7 @@ h2{
   width: 60%;
   column-gap: 4vw;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(2, minmax(0, 2fr));
+  grid-template-columns: repeat(3, minmax(0, 2fr));
   position: relative;
   top: 10vh;
   left: 15vw; 
