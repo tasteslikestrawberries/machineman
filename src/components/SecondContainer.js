@@ -2,6 +2,7 @@
 import React from "react"
 
 
+
 class SecondContainer extends React.Component {
     render() {
         return (
@@ -19,10 +20,8 @@ class SecondContainer extends React.Component {
            aliqua. 
             </div>
 
-           
+        
       
-  
-
             </div>
         ); 
     }
