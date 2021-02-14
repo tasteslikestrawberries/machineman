@@ -90,10 +90,11 @@ background-color: rgb(168, 38, 255);
 .firstContainer .loaded {
   
  transition: transform 2s cubic-bezier(.81,.04,.16,.97);
- transform: scale(1.6);
+ transform: scale(1.5);
  position: absolute;
- top: 90vh;
- left: 45vw;
+ top: 20vh;
+ left: 25vw;
+ z-index: 1000;
 
 
 }
@@ -103,8 +104,9 @@ background-color: rgb(168, 38, 255);
   transition: transform 2s cubic-bezier(.81,.04,.16,.97);
   transform: scale(1.2);
   position: absolute;
-  top: 250vh;
-  left: 40vw;
+  top: 350vh;
+  left: 45vw;
+  z-index: 1000;
  
  }
 
@@ -118,10 +120,14 @@ background-color: rgb(168, 38, 255);
 .firstContainer {
   font-size: 18px;
   width: 100%;
-  height: 1000px;
+  height: 800px;
   background-color: #131314;
   color: #ffffff;
   background-image: url('./components/assets/brain.png');
+  background-position-x: 100vw;
+  background-position-y: 510vh;
+  background-size: 50%;
+
 
   
 }
@@ -131,8 +137,8 @@ h1{
   
   position: absolute;
   width: fit-content;
-  left: 80vw;
-  top: 35vh;
+  left: 70vw;
+  top: 10vh;
   font-size: 90px;
   margin: 0;
   letter-spacing: 0.05em;
@@ -159,114 +165,6 @@ h1 span {
   left: 15vw; 
 }
 
-.contentItem #img1 {   
-    max-width: 100%;
-    max-height: 100%;
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-    }
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  
-  
-  
-    }
-  
-    .contentItem #img2 {   
-      max-width: 100%;
-      animation: fadeIn ease 6s;
-      -webkit-animation: fadeIn ease 6s;
-      -moz-animation: fadeIn ease 6s;
-      -o-animation: fadeIn ease 6s;
-      -ms-animation: fadeIn ease 6s;
-      }
-      @keyframes fadeIn {
-      0% {opacity:0;}
-      100% {opacity:1;}
-      }
-      
-      @-moz-keyframes fadeIn {
-      0% {opacity:0;}
-      100% {opacity:1;}
-      }
-      
-      @-webkit-keyframes fadeIn {
-      0% {opacity:0;}
-      100% {opacity:1;}
-      }
-      
-      @-o-keyframes fadeIn {
-      0% {opacity:0;}
-      100% {opacity:1;}
-      }
-      
-      @-ms-keyframes fadeIn {
-      0% {opacity:0;}
-      100% {opacity:1;}
-    
-    
-    
-      }
-
-      .contentItem #img3 {   
-        max-width: 100%;
-        animation: fadeIn ease 8s;
-        -webkit-animation: fadeIn ease 8s;
-        -moz-animation: fadeIn ease 8s;
-        -o-animation: fadeIn ease 8s;
-        -ms-animation: fadeIn ease 8s;
-        }
-        @keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-        @-moz-keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-        @-webkit-keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-        @-o-keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-        @-ms-keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-      
-      
-      
-        }
 
 
 
@@ -289,23 +187,103 @@ h2{
   margin: 0;
   letter-spacing: 0.05em;
   color: #000000;
+  text-transform: uppercase;
   
 }
 
 .content2 {
-  text-align: justify;
-  position: relative;
+  display: grid;
   width: 60%;
-  top: 45vh;
-  left: 15vw;
+  column-gap: 4vw;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, minmax(0, 2fr));
+  position: relative;
+  top: 10vh;
+  left: 15vw; 
+  
+
 
 }
+
+.contentItem #img1 {   
+  max-width: 100%;
+  max-height: 100%;
+
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+
+
+
+  }
+
+  .contentItem #img2 {   
+    max-width: 100%;
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0.3;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0.4;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0.5;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  
+  
+  
+    }
 
 .thirdContainer {
   
   font-size: 18px;
   width: 100%;
-  height: 1200px;
+  height: 1500px;
   background-color: #131314;
 
 }
@@ -314,7 +292,7 @@ h3{
   position: absolute;
   width: fit-content;
   left: 15vw;
-  top: 300vh;
+  top: 280vh;
   font-size: 50px;
   margin: 0;
   letter-spacing: 0.05em;
@@ -325,11 +303,19 @@ h3{
 .content3 {
   text-align: justify;
   position: relative;
-  width: 45%;
-  top: 40vh;
+  width: 60%;
+  top: 30vh;
   left: 15vw;
   color: #fff;
  
+}
+
+hr{
+  position:absolute;
+  top:410vh;
+  left: 15vw;
+  width: 30vw;
+  border-top: 0.5px solid#ffffff;
 }
 
 
