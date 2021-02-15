@@ -32,7 +32,10 @@ a:hover, a:active {
   width: 60px;
   height: 30px;
   cursor: pointer;
-  z-index: 400;}
+  z-index: 400;
+ 
+
+}
 
 
 #menu span {
@@ -111,7 +114,7 @@ background-color: rgb(168, 38, 255);
   transition: transform 2s cubic-bezier(.81,.04,.16,.97);
   transform: scale(1.2);
   position: relative;
-  top: 200px;
+  top: 130px;
   left: 600px;
   z-index: 1000;
   height: 650px;
@@ -130,7 +133,7 @@ background-color: rgb(168, 38, 255);
 
 .firstContainer {
   font-size: 18px;
-  width: 100%;
+  width:auto;
   height: 1000px;
   background-color: #131314;
   color: #fff;
@@ -177,35 +180,24 @@ h1 span {
 .secondContainer {
 
   font-size: 18px;
-  width: 100%;
+  width: auto;
   height: 1000px;
   background-image: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
   background-attachment: fixed;
   }
 
-  .secondContainerPart {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
-    width: 100%;
-    
-  }
+  
 
 h2{
-
   font-size: 50px;
   margin: 0;
   letter-spacing: 0.05em;
-  color: #131314;
+  color: #fff;
 
   
 }
 
-.secondText {
-  position: relative;
-  right: 200px;
- top: 600px;
-}
+
 
 
  #img1 {   
@@ -256,7 +248,7 @@ h2{
       width: 600px;
       height: 380px;
       left: 200px;
-      top: 100px;
+      top: -60px;
     
       
   
@@ -335,6 +327,8 @@ h3{
 
  
 }
+
+
 
 
 

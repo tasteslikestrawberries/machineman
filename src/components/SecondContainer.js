@@ -11,16 +11,12 @@ class SecondContainer extends React.Component {
         return (
             <div className='secondContainer'>
              
-               
-               <div className='secondContainerPart'>
-           <img id='img1' src={android} alt="" ></img>
+             <img id='img1' src={android} alt="" ></img>
           
-           <img id='img2' src={skull} alt="" ></img>
-           <div className='secondText'> <h2>becoming HUMAN?</h2></div>
-
-               </div>
-    
-               </div>
+             <img id='img2' src={skull} alt="" ></img>
+           
+            
+            </div>
          
             
           

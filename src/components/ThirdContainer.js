@@ -34,18 +34,20 @@ class ThirdContainer extends React.Component {
     render() {
         return (
             <div className='thirdContainer'>
-                 <h3>electric POETRY</h3>
-                 <img className="lazyload" data-src={kneel} alt="" width="800" height="700"></img>
-            <div className='content3'>
-                 <br/><br/>
-                 <hr/><br/>
-                About: Lorem Ipsum<br/><br/>
-                Inspired by: Dolor <br/><br/>
-                Theme by: Purple Rain<br/><br/>
-                Credits: Done
+                     <h3>electric POETRY</h3>
+                     <img className="lazyload" data-src={kneel} alt="" width="800" height="700"></img>
+                <div className='content3'>
+                     <br/><br/>
+                     <br/>
+                  
+                     About: Lorem Ipsum<br/><br/>
+                     Inspired by: Dolor <br/><br/>
+                     Theme by: Purple Rain<br/><br/>
+                     Credits: Done
+                     
            
     
-            </div>
+                </div>
     
 
             </div>
