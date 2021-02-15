@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.b937a6fa.chunk.css",
-    "main.js": "/react-app/static/js/main.8cbaa113.chunk.js",
-    "main.js.map": "/react-app/static/js/main.8cbaa113.chunk.js.map",
+    "main.css": "/react-app/static/css/main.b5e35864.chunk.css",
+    "main.js": "/react-app/static/js/main.475e88f6.chunk.js",
+    "main.js.map": "/react-app/static/js/main.475e88f6.chunk.js.map",
     "runtime-main.js": "/react-app/static/js/runtime-main.7e6c7676.js",
     "runtime-main.js.map": "/react-app/static/js/runtime-main.7e6c7676.js.map",
     "static/js/2.46361d5c.chunk.js": "/react-app/static/js/2.46361d5c.chunk.js",
     "static/js/2.46361d5c.chunk.js.map": "/react-app/static/js/2.46361d5c.chunk.js.map",
     "index.html": "/react-app/index.html",
-    "static/css/main.b937a6fa.chunk.css.map": "/react-app/static/css/main.b937a6fa.chunk.css.map",
+    "static/css/main.b5e35864.chunk.css.map": "/react-app/static/css/main.b5e35864.chunk.css.map",
     "static/js/2.46361d5c.chunk.js.LICENSE.txt": "/react-app/static/js/2.46361d5c.chunk.js.LICENSE.txt",
     "static/media/android.68b11851.jpg": "/react-app/static/media/android.68b11851.jpg",
     "static/media/App.css": "/react-app/static/media/brain.aacee983.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7e6c7676.js",
     "static/js/2.46361d5c.chunk.js",
-    "static/css/main.b937a6fa.chunk.css",
-    "static/js/main.8cbaa113.chunk.js"
+    "static/css/main.b5e35864.chunk.css",
+    "static/js/main.475e88f6.chunk.js"
   ]
 }
