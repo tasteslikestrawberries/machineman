@@ -11,7 +11,7 @@ class FirstContainer extends React.Component {
             let options = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.2
+                threshold: 0.5
             }
     
             const callback = (entries) => {

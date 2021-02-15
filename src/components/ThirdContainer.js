@@ -9,7 +9,7 @@ class ThirdContainer extends React.Component {
         let options = {
             root: null,
             rootMargin: '0px',
-            threshold: 0.406
+            threshold: 0.5
         }
 
         const callback = (entries) => {
