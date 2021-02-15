@@ -10,7 +10,7 @@ body {
 }
 
 a:link, a:visited {
-  color: rgb(255, 255, 255);
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 
@@ -24,7 +24,7 @@ a:hover, a:active {
 /*MENU*/
 
 #menu {
-  color: rgb(255, 255, 255);
+  color: #fff;
   position: fixed;
   top: 60px;
   right: 85px;
@@ -72,8 +72,8 @@ background-color: rgb(168, 38, 255);
   position: fixed;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  margin-top: 30vh;
-  padding: 5vw;
+  margin-top: 220px;
+  padding: 30px;
   z-index: 500;
   width: fit-content;
   height: fit-content;
@@ -82,8 +82,8 @@ background-color: rgb(168, 38, 255);
 
 .info span {
   display:inline-block;
-  width:0.05vw;
-  background-color: rgb(255, 255, 255);
+  width:0.5px;
+  background-color: #fff;
   height:300%;
   
 }
@@ -94,11 +94,11 @@ background-color: rgb(168, 38, 255);
  transition: transform 2s cubic-bezier(.81,.04,.16,.97);
  transform: scale(1.5);
  position: relative;
- top: 30vh;
- left: 27vw;
+ top: 200px;
+ left: 400px;
  z-index: 1000;
- height: 57vh;
- width: 23vw;
+ height: 400px;
+ width: 300px;
 
 
 }
@@ -108,11 +108,11 @@ background-color: rgb(168, 38, 255);
   transition: transform 2s cubic-bezier(.81,.04,.16,.97);
   transform: scale(1.2);
   position: absolute;
-  top: 250vh;
-  left: 40vw;
+  top: 1900px;
+  left: 600px;
   z-index: 1000;
-  height: 80vh;
- width: 50vw;
+  height: 650px;
+ width: 800px;
 
   
  
@@ -128,12 +128,12 @@ background-color: rgb(168, 38, 255);
 .firstContainer {
   font-size: 18px;
   width: 100%;
-  height: 130vh;
+  height: 1000px;
   background-color: #131314;
-  color: #ffffff;
+  color: #fff;
   background-image: url('./components/assets/brain.png');
-  background-position-x: 10vw;
-  background-position-y: 10vh;
+  background-position-x: 150px;
+  background-position-y: 50px;
   background-size: 55%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -145,9 +145,9 @@ h1{
   
   position: absolute;
   width: fit-content;
-  left: 70vw;
-  top: 20vh;
-  font-size: 10.5vh;
+  right: 250px;
+  top: 120px;
+  font-size: 75px;
   margin: 0;
   letter-spacing: 0.05em;
   color: #ffffff;
@@ -161,22 +161,21 @@ h1 span {
   color: #ffee00;
 }
 
+/*
 .content1 {
   display: grid;
-  column-gap: 1vw;
+  column-gap: 0px;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, minmax(0, 2fr));
-  position: absolute;
-  top: 10vh;
-  left: 15vw; 
-}
+  position: relative;
+}*/
 
 
 .secondContainer {
 
   font-size: 18px;
   width: 100%;
-  height: 130vh;
+  height: 1000px;
   background-image: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
   background-attachment: fixed;
   }
@@ -185,33 +184,33 @@ h1 span {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
-    width: 60%;
+    width: 100%;
     
   }
 
 h2{
 
-  font-size: 7vh;
+  font-size: 50px;
   margin: 0;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: #fff;
 
   
 }
 
 .secondText {
   position: absolute;
-  left: 55vw;
- top: 65vh;
+  left: 800px;
+ top: 550px;
 }
 
 
  #img1 {   
     position: relative;
-    width: 30vw;
-    height: 80vh;
-    left: 15vw;
-    top: 20vh;
+    width: 500px;
+    height: 650px;
+    left: 150px;
+    top: 150px;
  
     
 
@@ -251,10 +250,10 @@ h2{
 
     #img2 {   
       position: relative;
-      width: 35vw;
-      height: 47vh;
-      left: 17vw;
-      top: 9vh;
+      width: 600px;
+      height: 380px;
+      left: 200px;
+      top: 100px;
     
       
   
@@ -298,11 +297,11 @@ h2{
   
   font-size: 18px;
   width: 100%;
-  height: 130vh;
+  height: 1000px;
   background-color: #131314;
   background-image: url('./components/assets/brain.png');
-  background-position-x: -20vw;
-  background-position-y: 10vh;
+  background-position-x: -350px;
+  background-position-y: 100px;
   background-size: 45%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -312,9 +311,9 @@ h2{
 h3{
   position: relative;
   width: fit-content;
-  left: 35vw;
-  top: 100vh;
-  font-size: 7vh;
+  left: 500px;
+  top: 800px;
+  font-size: 50px;
   margin: 0;
   letter-spacing: 0.05em;
   color: #ffffff;
@@ -325,8 +324,8 @@ h3{
   text-align: justify;
   position: relative;
   width: 30%;
-  top: 0vh;
-  left: 15vw;
+  top: 0px;
+  left: 200px;
   color: #fff;
 
  
