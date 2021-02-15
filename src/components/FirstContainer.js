@@ -40,7 +40,7 @@ class FirstContainer extends React.Component {
             <div className='firstContainer'>
             
               <h1>The<br/><span>Machine</span>Man</h1>
-              <img className="lazyload" data-src={robot} alt="" width="350" height="450"></img>
+              <img className="lazyload" data-src={robot} alt=""></img>
             
             <div className='content1'>
                
