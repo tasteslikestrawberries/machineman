@@ -4,12 +4,12 @@ import React from "react";
 const Menu = () => {
     return (
 
-   <div id="menu" value="button" >
-         <span></span>
-         <span></span>
-         <span></span>
- 
-   </div>
+    <div id="menu" value="button" >
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      
+    </div>
 
     );
 };

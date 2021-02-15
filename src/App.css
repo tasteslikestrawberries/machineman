@@ -8,6 +8,7 @@ body {
   width: auto;
   
   
+  
 }
 
 a:link, a:visited {
@@ -25,49 +26,43 @@ a:hover, a:active {
 /*MENU*/
 
 #menu {
-  color: #fff;
-  position: fixed;
-  top: 60px;
-  right: 85px;
-  width: 60px;
-  height: 30px;
   cursor: pointer;
-  z-index: 400;
- 
+  position: fixed;
+  left: 1400px;
+  top: 50px;
+  z-index: 900;
+  margin:0
 
-}
 
+  }
 
-#menu span {
-  display: block;
-  position: absolute;
-  height: 4px;
-  background-color:#ffffff;
-  left: 0;
-  transform: rotate(
-0deg
-);
-  transition: .25s ease-in-out;}
-
-#menu span:first-child {
-  width: 100%;
-  top: 0;
-}
-
-#menu span:nth-child(2) {
-  width: 80%;
-  top: 10px;
-  right: 0;
-  left: auto;
-}
-#menu span:nth-child(3) {
-  width: 100%;
-  top: 20px;
+  .bar1, .bar2, .bar3 {
+    width: 60px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
   
-}
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 9px) ;
+    transform: rotate(-45deg) translate(-9px, 9px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
 
-#menu:hover span {
-background-color: rgb(168, 38, 255);
+.bar1:hover, .bar2:hover, .bar3:hover  {
+color: rgb(168, 38, 255);
 }
 
 
@@ -78,10 +73,9 @@ background-color: rgb(168, 38, 255);
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   margin-top: 220px;
-  padding: 30px;
+  padding: 80px;
   z-index: 500;
-  width: fit-content;
-  height: fit-content;
+  
   color: #fff;
 }
 
@@ -99,10 +93,10 @@ background-color: rgb(168, 38, 255);
 .firstContainer .loaded {
   
  transition: transform 2s cubic-bezier(.81,.04,.16,.97);
- transform: scale(1.5);
- position: relative;
- top: -350px;
- left: 400px;
+ transform: scale(1.6);
+ position: absolute;
+ top: 200px;
+ left: 620px;
  z-index: 1000;
  height: 400px;
  width: 300px;
@@ -135,24 +129,24 @@ background-color: rgb(168, 38, 255);
 .firstContainer {
   font-size: 18px;
   width:auto;
-  height: 950px;
+  height: 800px;
   background-color: #131314;
   color: #fff;
   background-image: url('./components/assets/brain.png');
-  background-position-x: 150px;
+  background-position-x: 50%;
   background-position-y: 50px;
   background-size: 55%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
+  margin:0;
 }
 
-
+/*
 h1{
   
   position: relative;
   width: fit-content;
-  left: 1100px;
+  left: 1200px;
   top: 150px;
   font-size: 53px;
   margin: 0;
@@ -182,9 +176,10 @@ h1 span {
 
   font-size: 18px;
   width: auto;
-  height: 500px;
+  height: 300px;
   background-image: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
   background-attachment: fixed;
+  margin:0;
   }
 
   
@@ -194,13 +189,14 @@ h2{
   margin: 0;
   letter-spacing: 0.05em;
   color: #fff;
-
+  margin:0;
   
 }
 
 
 
 
+/*
  #img1 {   
     position: relative;
     width: 500px;
@@ -287,7 +283,7 @@ h2{
     
       }
 
-
+*/
     
 .thirdContainer {
   
@@ -301,12 +297,12 @@ h2{
   background-size: 45%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  margin:0;
 }
 
 h3{
   position: relative;
-  width: fit-content;
+  width: 500px;
   left: 350px;
   top: 800px;
   font-size: 40px;
@@ -326,6 +322,7 @@ h3{
   left: 200px;
   color: #fff;
   font-size: 16px;
+  margin:0;
 
  
 }
