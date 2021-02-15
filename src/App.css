@@ -1,8 +1,8 @@
 /* eslint-disable */
 
 body {
-  font-family: 'Mulish', sans-serif;
-  font-size: 18px;
+  font-family: 'Michroma';
+  font-size: 16px;
   margin: 0;
   box-sizing: border-box;
   width: auto;
@@ -73,6 +73,7 @@ background-color: rgb(168, 38, 255);
 
 
 .info {
+  font-size: 16px;
   position: fixed;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -134,7 +135,7 @@ background-color: rgb(168, 38, 255);
 .firstContainer {
   font-size: 18px;
   width:auto;
-  height: 1000px;
+  height: 950px;
   background-color: #131314;
   color: #fff;
   background-image: url('./components/assets/brain.png');
@@ -153,7 +154,7 @@ h1{
   width: fit-content;
   left: 1100px;
   top: 150px;
-  font-size: 75px;
+  font-size: 53px;
   margin: 0;
   letter-spacing: 0.05em;
   color: #ffffff;
@@ -181,7 +182,7 @@ h1 span {
 
   font-size: 18px;
   width: auto;
-  height: 1000px;
+  height: 500px;
   background-image: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
   background-attachment: fixed;
   }
@@ -204,8 +205,8 @@ h2{
     position: relative;
     width: 500px;
     height: 650px;
-    left: 150px;
-    top: 150px;
+    left: 200px;
+    top: -65px;
  
     
 
@@ -247,8 +248,8 @@ h2{
       position: relative;
       width: 600px;
       height: 380px;
-      left: 200px;
-      top: -60px;
+      left: 220px;
+      top: -210px;
     
       
   
@@ -308,7 +309,7 @@ h3{
   width: fit-content;
   left: 350px;
   top: 800px;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   letter-spacing: 0.05em;
   background: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
@@ -321,9 +322,10 @@ h3{
   text-align: justify;
   position: relative;
   width: 30%;
-  top: -500px;
-  left: 300px;
+  top: -400px;
+  left: 200px;
   color: #fff;
+  font-size: 16px;
 
  
 }

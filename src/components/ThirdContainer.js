@@ -39,7 +39,7 @@ class ThirdContainer extends React.Component {
                 <div className='content3'>
                      <br/><br/>
                      <br/>
-                  
+                     <hr/>
                      About: Lorem Ipsum<br/><br/>
                      Inspired by: Dolor <br/><br/>
                      Theme by: Purple Rain<br/><br/>
