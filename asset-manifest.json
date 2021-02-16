@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.155a93b2.chunk.css",
-    "main.js": "/react-app/static/js/main.9ec078d7.chunk.js",
-    "main.js.map": "/react-app/static/js/main.9ec078d7.chunk.js.map",
+    "main.css": "/react-app/static/css/main.97032660.chunk.css",
+    "main.js": "/react-app/static/js/main.544bb0a0.chunk.js",
+    "main.js.map": "/react-app/static/js/main.544bb0a0.chunk.js.map",
     "runtime-main.js": "/react-app/static/js/runtime-main.7e6c7676.js",
     "runtime-main.js.map": "/react-app/static/js/runtime-main.7e6c7676.js.map",
     "static/js/2.46361d5c.chunk.js": "/react-app/static/js/2.46361d5c.chunk.js",
     "static/js/2.46361d5c.chunk.js.map": "/react-app/static/js/2.46361d5c.chunk.js.map",
     "index.html": "/react-app/index.html",
-    "static/css/main.155a93b2.chunk.css.map": "/react-app/static/css/main.155a93b2.chunk.css.map",
+    "static/css/main.97032660.chunk.css.map": "/react-app/static/css/main.97032660.chunk.css.map",
     "static/js/2.46361d5c.chunk.js.LICENSE.txt": "/react-app/static/js/2.46361d5c.chunk.js.LICENSE.txt",
-    "static/media/android.68b11851.jpg": "/react-app/static/media/android.68b11851.jpg",
     "static/media/App.css": "/react-app/static/media/brain.aacee983.png",
     "static/media/kneel.04741087.png": "/react-app/static/media/kneel.04741087.png",
-    "static/media/rob1.6840db72.jpg": "/react-app/static/media/rob1.6840db72.jpg",
-    "static/media/rob2.f76c56a2.jpg": "/react-app/static/media/rob2.f76c56a2.jpg",
-    "static/media/rob3.1227fdf5.jpg": "/react-app/static/media/rob3.1227fdf5.jpg",
-    "static/media/robot.737ae7fb.png": "/react-app/static/media/robot.737ae7fb.png",
-    "static/media/skull.a1329159.jpg": "/react-app/static/media/skull.a1329159.jpg"
+    "static/media/rob2.44ed457d.jpg": "/react-app/static/media/rob2.44ed457d.jpg",
+    "static/media/rob4.33d8b96a.jpg": "/react-app/static/media/rob4.33d8b96a.jpg",
+    "static/media/rob5.d76713c6.jpg": "/react-app/static/media/rob5.d76713c6.jpg",
+    "static/media/robot.737ae7fb.png": "/react-app/static/media/robot.737ae7fb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7e6c7676.js",
     "static/js/2.46361d5c.chunk.js",
-    "static/css/main.155a93b2.chunk.css",
-    "static/js/main.9ec078d7.chunk.js"
+    "static/css/main.97032660.chunk.css",
+    "static/js/main.544bb0a0.chunk.js"
   ]
 }
