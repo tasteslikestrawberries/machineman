@@ -7,15 +7,12 @@ body {
   box-sizing: border-box;
   width: auto;
   
-  
-  
 }
 
 a:link, a:visited {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-
 
 }
 
@@ -33,8 +30,8 @@ a:hover, a:active {
   z-index: 900;
   margin:0
 
-
   }
+
 
   .bar1, .bar2, .bar3 {
     width: 60px;
@@ -42,6 +39,7 @@ a:hover, a:active {
     background-color: #fff;
     margin: 6px 0;
     transition: 0.4s;
+
   }
   
   /* Rotate first bar */
@@ -61,22 +59,18 @@ a:hover, a:active {
     transform: rotate(45deg) translate(-8px, -8px) ;
   }
 
-.bar1:hover, .bar2:hover, .bar3:hover  {
-color: rgb(168, 38, 255);
-}
-
-
 
 .info {
   font-size: 16px;
   position: fixed;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  margin-top: 220px;
+  margin-top: 150px;
   padding: 80px;
   z-index: 500;
-  
   color: #fff;
+
+
 }
 
 .info span {
@@ -85,7 +79,7 @@ color: rgb(168, 38, 255);
   background-color: #fff;
   height:300%;
   margin: 10px;
-  
+
   
 }
 
@@ -139,37 +133,9 @@ color: rgb(168, 38, 255);
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin:0;
-}
 
-/*
-h1{
-  
-  position: relative;
-  width: fit-content;
-  left: 1200px;
-  top: 150px;
-  font-size: 53px;
-  margin: 0;
-  letter-spacing: 0.05em;
-  color: #ffffff;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  text-transform:uppercase;
 
 }
-
-h1 span {
-  color: #ffee00;
-}
-
-/*
-.content1 {
-  display: grid;
-  column-gap: 0px;
-  grid-template-rows: 1fr;
-  grid-template-columns: repeat(3, minmax(0, 2fr));
-  position: relative;
-}*/
 
 
 .secondContainer {
@@ -177,6 +143,8 @@ h1 span {
   background-image: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
   background-attachment: fixed;
   margin:0;
+
+
   }
 
   
@@ -184,9 +152,10 @@ h1 span {
 .grid {
   display: grid;
   position: relative;
+  grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  left: 200px;
+  left: 250px;
   top: -50px;
   max-width: 60%;
   
@@ -195,13 +164,8 @@ h1 span {
 .gridImg {
   width: 200px;
   height: 400px;
-  overflow: hidden;
+  
 }
-
-.gridImg img {
-  width: 500px;
-}
-
 
 .thirdContainer {
   
@@ -216,6 +180,8 @@ h1 span {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin:0;
+
+  
 }
 
 
@@ -224,7 +190,7 @@ h1 span {
   position: relative;
   width: 30%;
   top: -500px;
-  left: 200px;
+  left: 250px;
   color: #fff;
   font-size: 16px;
   margin:0;
