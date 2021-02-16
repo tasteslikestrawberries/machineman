@@ -34,7 +34,7 @@ class ThirdContainer extends React.Component {
     render() {
         return (
             <div className='thirdContainer'>
-                     <h3></h3>
+                    
                      <img className="lazyload" data-src={kneel} alt="" width="800" height="700"></img>
                 <div className='content3'>
                      <br/><br/>

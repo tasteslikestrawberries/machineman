@@ -109,7 +109,7 @@ color: rgb(168, 38, 255);
   transition: transform 2s cubic-bezier(.81,.04,.16,.97);
   transform: scale(1.2);
   position: relative;
-  top: 130px;
+  top: 250px;
   left: 600px;
   z-index: 1000;
   height: 650px;
@@ -129,7 +129,7 @@ color: rgb(168, 38, 255);
 .firstContainer {
   font-size: 18px;
   width:auto;
-  height: 800px;
+  height: 900px;
   background-color: #131314;
   color: #fff;
   background-image: url('./components/assets/brain.png');
@@ -173,9 +173,6 @@ h1 span {
 
 
 .secondContainer {
-
-  font-size: 18px;
-  width: auto;
   height: 300px;
   background-image: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
   background-attachment: fixed;
@@ -184,107 +181,26 @@ h1 span {
 
   
 
-h2{
-  font-size: 50px;
-  margin: 0;
-  letter-spacing: 0.05em;
-  color: #fff;
-  margin:0;
+.gridImg {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  left: 200px;
+  top: -50px;
+  max-width: 60%;
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+
   
 }
 
+.gridImg img {
+  width: 500px;
+}
 
 
-
-/*
- #img1 {   
-    position: relative;
-    width: 500px;
-    height: 650px;
-    left: 200px;
-    top: -65px;
- 
-    
-
-    animation: fadeIn ease 6s;
-    -webkit-animation: fadeIn ease 6s;
-    -moz-animation: fadeIn ease 6s;
-    -o-animation: fadeIn ease 6s;
-    -ms-animation: fadeIn ease 6s;
-    }
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-moz-keyframes fadeIn {
-    0% {opacity:0.3;}
-    100% {opacity:1;}
-    }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0.4;}
-    100% {opacity:1;}
-    }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0.5;}
-    100% {opacity:1;}
-    }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  
-  
-  
-    }
-
-    #img2 {   
-      position: relative;
-      width: 600px;
-      height: 380px;
-      left: 220px;
-      top: -210px;
-    
-      
-  
-      animation: fadeIn ease 6s;
-      -webkit-animation: fadeIn ease 6s;
-      -moz-animation: fadeIn ease 6s;
-      -o-animation: fadeIn ease 6s;
-      -ms-animation: fadeIn ease 6s;
-      }
-      @keyframes fadeIn {
-      0% {opacity:0;}
-      100% {opacity:1;}
-      }
-      
-      @-moz-keyframes fadeIn {
-      0% {opacity:0.3;}
-      100% {opacity:1;}
-      }
-      
-      @-webkit-keyframes fadeIn {
-      0% {opacity:0.4;}
-      100% {opacity:1;}
-      }
-      
-      @-o-keyframes fadeIn {
-      0% {opacity:0.5;}
-      100% {opacity:1;}
-      }
-      
-      @-ms-keyframes fadeIn {
-      0% {opacity:0;}
-      100% {opacity:1;}
-    
-    
-    
-      }
-
-*/
-    
 .thirdContainer {
   
   font-size: 18px;
@@ -300,25 +216,12 @@ h2{
   margin:0;
 }
 
-h3{
-  position: relative;
-  width: 500px;
-  left: 350px;
-  top: 800px;
-  font-size: 40px;
-  margin: 0;
-  letter-spacing: 0.05em;
-  background: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 
 .content3 {
   text-align: justify;
   position: relative;
   width: 30%;
-  top: -400px;
+  top: -500px;
   left: 200px;
   color: #fff;
   font-size: 16px;
