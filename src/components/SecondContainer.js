@@ -16,24 +16,26 @@ import rob3 from './assets/rob3.jpg'
 class SecondContainer extends React.Component {
    render() {
        return (
-           <div className='secondContainer'>
+        <div className='secondContainer'>
            
-        
-              <div className='gridImg'>
+           <div className='grid'>
+            <div className='gridImg'>
              
 
-              <img id='img1' src={android} alt=""></img>
-              <img id='img2' src={skull}   alt=""></img>
-              <img id='img3' src={rob1}    alt=""></img>
-              <img id='img4' src={rob2}    alt=""></img>
-              <img id='img5' src={rob3}    alt=""></img>
-
+                <img id='img1' src={android} alt=""></img>
+                <img id='img2' src={skull}   alt=""></img>
+                <img id='img3' src={rob1}    alt=""></img>
+                <img id='img4' src={rob2}    alt=""></img>
+                <img id='img5' src={rob3}    alt=""></img>
+            </div>
             </div>
 
             
+      
+            
 
               
-          </div>
+        </div>
            
         
         

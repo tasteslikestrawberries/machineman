@@ -181,7 +181,7 @@ h1 span {
 
   
 
-.gridImg {
+.grid {
   display: grid;
   position: relative;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -189,11 +189,13 @@ h1 span {
   left: 200px;
   top: -50px;
   max-width: 60%;
+  
+}
+
+.gridImg {
   width: 200px;
   height: 400px;
   overflow: hidden;
-
-  
 }
 
 .gridImg img {
