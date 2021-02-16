@@ -40,10 +40,10 @@ class ThirdContainer extends React.Component {
                      <br/><br/>
                      <br/>
                      <hr/>
-                     About: Lorem Ipsum<br/><br/>
-                     Inspired by: Dolor <br/><br/>
-                     Theme by: Purple Rain<br/><br/>
-                     Credits: Done
+                     Theme: Machine Man<br/><br/>
+                     Inspired by: Detroit Becomes Human <br/><br/>
+                     Made by: Anja ♡ 2021.<br/><br/>
+                     Code practice: React
                      
            
     

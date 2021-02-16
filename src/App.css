@@ -17,18 +17,18 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
- text-decoration: none;
+  text-decoration: none;
 }
 
 /*MENU*/
 
-#menu {
-  cursor: pointer;
-  position: fixed;
-  left: 1400px;
-  top: 50px;
-  z-index: 900;
-  margin:0
+  #menu {
+    cursor: pointer;
+    position: fixed;
+    left: 1400px;
+    top: 50px;
+    z-index: 900;
+    margin:0
 
   }
 
@@ -86,14 +86,14 @@ a:hover, a:active {
 
 .firstContainer .loaded {
   
- transition: transform 2s cubic-bezier(.81,.04,.16,.97);
- transform: scale(1.6);
- position: absolute;
- top: 200px;
- left: 620px;
- z-index: 1000;
- height: 400px;
- width: 300px;
+  transition: transform 2s cubic-bezier(.81,.04,.16,.97);
+  transform: scale(1.6);
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  z-index: 1000;
+  height: 400px;
+  width: 300px;
 
 
 }
@@ -107,18 +107,17 @@ a:hover, a:active {
   left: 600px;
   z-index: 1000;
   height: 650px;
- width: 800px;
+  width: 800px;
 
-  
  
  }
+
+
 
 /* animation: scale cubic-bezier(.81,.04,.16,.97) 2s forwards;
 @keyframes scale {
   100% { transform: scale(1.8) }
 }*/
-
-
 
 .firstContainer {
   font-size: 18px;
@@ -139,17 +138,18 @@ a:hover, a:active {
 
 
 .secondContainer {
+
   height: 300px;
   background-image: linear-gradient(rgb(168, 38, 255), rgb(175, 35, 240));
   background-attachment: fixed;
   margin:0;
-
 
   }
 
   
 
 .grid {
+
   display: grid;
   position: relative;
   grid-template-rows: 1fr;
@@ -162,6 +162,7 @@ a:hover, a:active {
 }
 
 .gridImg {
+
   width: 200px;
   height: 400px;
   
@@ -180,10 +181,8 @@ a:hover, a:active {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin:0;
-
   
 }
-
 
 .content3 {
   text-align: justify;
