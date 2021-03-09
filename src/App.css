@@ -22,16 +22,15 @@ a:hover, a:active {
 
 /*MENU*/
 
-  #menu {
+  .navbar {
     cursor: pointer;
     position: fixed;
-    left: 1400px;
+    left: 1420px;
     top: 50px;
     z-index: 900;
     margin:0
 
   }
-
 
   .bar1, .bar2, .bar3 {
     width: 60px;
@@ -39,13 +38,14 @@ a:hover, a:active {
     background-color: #fff;
     margin: 6px 0;
     transition: 0.4s;
+    border-radius: 5px;
 
   }
   
   /* Rotate first bar */
   .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 9px) ;
-    transform: rotate(-45deg) translate(-9px, 9px) ;
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px) ;
+    transform: rotate(-45deg) translate(-6px, 6px) ;
   }
   
   /* Fade out the second bar */
@@ -57,6 +57,44 @@ a:hover, a:active {
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+
+  .dropdown {
+    position: fixed;
+    top: 100px;
+    left: 1200px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    width: 279px;
+    height: 500px;
+    box-sizing: border-box;
+    z-index: 1000;
+    animation: 0.35s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+  
+    
+  
+
+  .dropdown li{
+    list-style-type: none;
+    padding: 3px;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  .dropdown a:hover {
+    color:rgb(168, 38, 255);
   }
 
 
@@ -105,7 +143,7 @@ a:hover, a:active {
   position: relative;
   top: 250px;
   left: 600px;
-  z-index: 1000;
+  z-index: 5;
   height: 650px;
   width: 800px;
 
