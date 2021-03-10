@@ -23,12 +23,12 @@ a:hover, a:active {
 /*MENU*/
 
   .navbar {
-    cursor: pointer;
     position: fixed;
+    cursor: pointer;
     left: 1420px;
     top: 50px;
     z-index: 900;
-    margin:0
+   
 
   }
 
@@ -68,7 +68,7 @@ a:hover, a:active {
     color: white;
     width: 279px;
     height: 500px;
-    box-sizing: border-box;
+
     z-index: 1000;
     animation: 0.35s slide-left;
   }
@@ -88,7 +88,6 @@ a:hover, a:active {
   .dropdown li{
     list-style-type: none;
     padding: 3px;
-    box-sizing: border-box;
     text-decoration: none;
     padding: 20px;
   }
