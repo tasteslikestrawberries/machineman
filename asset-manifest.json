@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/machineman/static/css/main.31b7c339.chunk.css",
-    "main.js": "/machineman/static/js/main.2c667c3a.chunk.js",
-    "main.js.map": "/machineman/static/js/main.2c667c3a.chunk.js.map",
+    "main.css": "/machineman/static/css/main.97a4650e.chunk.css",
+    "main.js": "/machineman/static/js/main.91d4f731.chunk.js",
+    "main.js.map": "/machineman/static/js/main.91d4f731.chunk.js.map",
     "runtime-main.js": "/machineman/static/js/runtime-main.83c231fe.js",
     "runtime-main.js.map": "/machineman/static/js/runtime-main.83c231fe.js.map",
-    "static/css/2.658248ec.chunk.css": "/machineman/static/css/2.658248ec.chunk.css",
-    "static/js/2.39b27bad.chunk.js": "/machineman/static/js/2.39b27bad.chunk.js",
-    "static/js/2.39b27bad.chunk.js.map": "/machineman/static/js/2.39b27bad.chunk.js.map",
+    "static/js/2.f9cc27d2.chunk.js": "/machineman/static/js/2.f9cc27d2.chunk.js",
+    "static/js/2.f9cc27d2.chunk.js.map": "/machineman/static/js/2.f9cc27d2.chunk.js.map",
     "index.html": "/machineman/index.html",
-    "static/css/2.658248ec.chunk.css.map": "/machineman/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.31b7c339.chunk.css.map": "/machineman/static/css/main.31b7c339.chunk.css.map",
-    "static/js/2.39b27bad.chunk.js.LICENSE.txt": "/machineman/static/js/2.39b27bad.chunk.js.LICENSE.txt",
-    "static/media/c1.def2bc01.webp": "/machineman/static/media/c1.def2bc01.webp",
-    "static/media/c2.b580e101.webp": "/machineman/static/media/c2.b580e101.webp",
-    "static/media/c3.d6735871.webp": "/machineman/static/media/c3.d6735871.webp"
+    "static/css/main.97a4650e.chunk.css.map": "/machineman/static/css/main.97a4650e.chunk.css.map",
+    "static/js/2.f9cc27d2.chunk.js.LICENSE.txt": "/machineman/static/js/2.f9cc27d2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/machineman/static/media/brain.aacee983.png",
+    "static/media/kneel.04741087.png": "/machineman/static/media/kneel.04741087.png",
+    "static/media/rob2.44ed457d.jpg": "/machineman/static/media/rob2.44ed457d.jpg",
+    "static/media/rob4.33d8b96a.jpg": "/machineman/static/media/rob4.33d8b96a.jpg",
+    "static/media/rob5.d76713c6.jpg": "/machineman/static/media/rob5.d76713c6.jpg",
+    "static/media/robot.737ae7fb.png": "/machineman/static/media/robot.737ae7fb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.83c231fe.js",
-    "static/css/2.658248ec.chunk.css",
-    "static/js/2.39b27bad.chunk.js",
-    "static/css/main.31b7c339.chunk.css",
-    "static/js/main.2c667c3a.chunk.js"
+    "static/js/2.f9cc27d2.chunk.js",
+    "static/css/main.97a4650e.chunk.css",
+    "static/js/main.91d4f731.chunk.js"
   ]
 }
