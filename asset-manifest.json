@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.25de5447.chunk.css",
-    "main.js": "/react-app/static/js/main.c257c095.chunk.js",
-    "main.js.map": "/react-app/static/js/main.c257c095.chunk.js.map",
-    "runtime-main.js": "/react-app/static/js/runtime-main.7e6c7676.js",
-    "runtime-main.js.map": "/react-app/static/js/runtime-main.7e6c7676.js.map",
-    "static/js/2.f9cc27d2.chunk.js": "/react-app/static/js/2.f9cc27d2.chunk.js",
-    "static/js/2.f9cc27d2.chunk.js.map": "/react-app/static/js/2.f9cc27d2.chunk.js.map",
-    "index.html": "/react-app/index.html",
-    "static/css/main.25de5447.chunk.css.map": "/react-app/static/css/main.25de5447.chunk.css.map",
-    "static/js/2.f9cc27d2.chunk.js.LICENSE.txt": "/react-app/static/js/2.f9cc27d2.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/react-app/static/media/brain.aacee983.png",
-    "static/media/kneel.04741087.png": "/react-app/static/media/kneel.04741087.png",
-    "static/media/rob2.44ed457d.jpg": "/react-app/static/media/rob2.44ed457d.jpg",
-    "static/media/rob4.33d8b96a.jpg": "/react-app/static/media/rob4.33d8b96a.jpg",
-    "static/media/rob5.d76713c6.jpg": "/react-app/static/media/rob5.d76713c6.jpg",
-    "static/media/robot.737ae7fb.png": "/react-app/static/media/robot.737ae7fb.png"
+    "main.css": "/machineman/static/css/main.31b7c339.chunk.css",
+    "main.js": "/machineman/static/js/main.2c667c3a.chunk.js",
+    "main.js.map": "/machineman/static/js/main.2c667c3a.chunk.js.map",
+    "runtime-main.js": "/machineman/static/js/runtime-main.83c231fe.js",
+    "runtime-main.js.map": "/machineman/static/js/runtime-main.83c231fe.js.map",
+    "static/css/2.658248ec.chunk.css": "/machineman/static/css/2.658248ec.chunk.css",
+    "static/js/2.39b27bad.chunk.js": "/machineman/static/js/2.39b27bad.chunk.js",
+    "static/js/2.39b27bad.chunk.js.map": "/machineman/static/js/2.39b27bad.chunk.js.map",
+    "index.html": "/machineman/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/machineman/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.31b7c339.chunk.css.map": "/machineman/static/css/main.31b7c339.chunk.css.map",
+    "static/js/2.39b27bad.chunk.js.LICENSE.txt": "/machineman/static/js/2.39b27bad.chunk.js.LICENSE.txt",
+    "static/media/c1.def2bc01.webp": "/machineman/static/media/c1.def2bc01.webp",
+    "static/media/c2.b580e101.webp": "/machineman/static/media/c2.b580e101.webp",
+    "static/media/c3.d6735871.webp": "/machineman/static/media/c3.d6735871.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e6c7676.js",
-    "static/js/2.f9cc27d2.chunk.js",
-    "static/css/main.25de5447.chunk.css",
-    "static/js/main.c257c095.chunk.js"
+    "static/js/runtime-main.83c231fe.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.39b27bad.chunk.js",
+    "static/css/main.31b7c339.chunk.css",
+    "static/js/main.2c667c3a.chunk.js"
   ]
 }
