@@ -4,7 +4,7 @@ import React from 'react';
 const Navbar = ({onClick, isOpen}) => {
   let classNameNavbar='navbar'
 
-  if (isOpen) {classNameNavbar += 'change' }
+  if (isOpen) {classNameNavbar += ' change' }
   
     return (
     
